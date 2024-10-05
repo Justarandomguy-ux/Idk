@@ -188,7 +188,7 @@ local MainTab = Window:MakeTab({
 
 -- Create the button inside the tab
 MainTab:AddButton({
-    Name = "Activate click me more to make it fast",
+    Name = "(patch) Activate click me more to make it fast",
     Callback = function()
         while true do
             fireCodes()
